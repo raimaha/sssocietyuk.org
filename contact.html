@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact · Shram Sanskriti Society UK</title>
+<meta name="description" content="Contact Shram Sanskriti Society UK.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><img src="logo.svg" alt="Shram Sanskriti Society UK — home" width="254" height="56"></a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="navlist">Menu</button>
+    <ul id="navlist"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="governance.html">Governance</a></li><li><a href="committee.html">Executive Committee</a></li><li><a href="membership.html">Membership</a></li><li><a href="contact.html" class="active">Contact</a></li><li><a class="join-btn" href="membership.html#join">Join us</a></li></ul>
+  </div>
+</header>
+<main id="main">
+
+<div class="page-hero"><div class="wrap"><div class="crumb">Contact</div><h1>Contact the Society</h1><p>Enquiries about membership, programmes, partnerships, fundraising or volunteering.</p><div class="bars"><i></i><i></i><i></i></div></div></div>
+<section>
+  <div class="wrap">
+    <div class="two">
+      <div>
+        <h2 style="font-size:32px">Who handles your enquiry</h2>
+        <p>The General Secretary coordinates official correspondence and administrative procedures <span class="ref">Article 7.9</span>.</p>
+        <div class="card" style="margin-top:20px"><ul style="margin:0">
+          <li><strong>Membership</strong> — Vice Chair Coordinator, Membership and Records</li>
+          <li><strong>Programmes and events</strong> — Vice Chair Coordinator, Programmes and Community Engagement</li>
+          <li><strong>Donations and sponsorship</strong> — Vice Chair Coordinator, Fundraising and Resource Development</li>
+          <li><strong>Partnerships</strong> — Vice Chair Coordinator, Partnerships and External Relations</li>
+          <li><strong>Equality and inclusion</strong> — Vice Chair Coordinator, Equality, Diversity and Inclusion</li>
+          <li><strong>Formal complaints</strong> — in writing to the General Secretary or, where the complaint concerns the General Secretary, to the Chair <span class="ref">Article 12.3</span></li>
+        </ul></div>
+        <p class="muted" style="font-size:15px;margin-top:18px">Only persons authorised by the Executive Committee may make commitments or statements on behalf of the Society <span class="ref">Article 14.7</span>.</p>
+      </div>
+      <div class="card">
+        <div class="form-msg"></div>
+        <form class="f" name="contact" method="POST" action="contact.html?sent=1" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact">
+          <p class="hp"><label>Leave this empty <input name="bot-field"></label></p>
+          <label>Your name<input name="name" required autocomplete="name"></label>
+          <label>Email<input name="email" type="email" required autocomplete="email"></label>
+          <label>Subject
+            <select name="subject"><option>General enquiry</option><option>Membership</option><option>Programmes and events</option><option>Donations and sponsorship</option><option>Partnerships</option><option>Equality and inclusion</option><option>Volunteering</option></select></label>
+          <label>Message<textarea name="message" required></textarea></label>
+          <button type="submit">Send message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer>
+  <div class="wrap">
+    <div class="f-grid">
+      <div>
+        <div class="bars"><i></i><i></i><i></i></div>
+        <h4>Shram Sanskriti Society UK</h4>
+        <p>A voluntary, non-profit, civic and cultural association established in the United Kingdom.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About the Society</a></li>
+          <li><a href="governance.html">Governance</a></li>
+          <li><a href="committee.html">Executive Committee</a></li>
+          <li><a href="founders.html">Founding Members</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get involved</h4>
+        <ul>
+          <li><a href="membership.html#join">Become a member</a></li>
+          <li><a href="membership.html#volunteer">General Volunteer Members</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>sssocietyuk.org</li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">© 2026 Shram Sanskriti Society UK (SSS UK). An independent, unincorporated, voluntary and non-profit association established in the United Kingdom. The Society shall not operate as a political party in the United Kingdom.</div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

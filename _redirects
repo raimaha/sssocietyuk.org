@@ -1,1 +1,7 @@
 https://www.sssocietyuk.org/*  https://sssocietyuk.org/:splat  301!
+/about  /about.html  200
+/governance  /governance.html  200
+/committee  /committee.html  200
+/membership  /membership.html  200
+/founders  /founders.html  200
+/contact  /contact.html  200
